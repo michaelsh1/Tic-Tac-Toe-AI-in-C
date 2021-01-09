@@ -196,9 +196,6 @@ int miniMax(Board board, int depth, int alpha, int beta, char player_turn, char 
 				board[pos.row][pos.col] = ' ';
 				
 				max_eval = max(eval, max_eval);
-				//alpha = max(alpha, eval);
-				//if(beta <= alpha)
-				//	return
 			}
 			else
 			{
