@@ -1,0 +1,16 @@
+﻿  Engine.cpp
+c:\users\micha\source\repos\ix-igul\ix-igul\includes.h(18): warning C4091: 'typedef ': ignored on left of 'VectorPos' when no variable is declared
+c:\users\micha\source\repos\ix-igul\ix-igul\engine.cpp(86): warning C4806: '==': unsafe operation: no value of type 'bool' promoted to type 'char' can equal the given constant
+c:\users\micha\source\repos\ix-igul\ix-igul\engine.cpp(103): warning C4806: '==': unsafe operation: no value of type 'bool' promoted to type 'char' can equal the given constant
+c:\users\micha\source\repos\ix-igul\ix-igul\engine.cpp(122): warning C4806: '==': unsafe operation: no value of type 'bool' promoted to type 'char' can equal the given constant
+c:\users\micha\source\repos\ix-igul\ix-igul\engine.cpp(132): warning C4806: '==': unsafe operation: no value of type 'bool' promoted to type 'char' can equal the given constant
+c:\users\micha\source\repos\ix-igul\ix-igul\engine.cpp(146): warning C4101: 'is_clean_col': unreferenced local variable
+c:\users\micha\source\repos\ix-igul\ix-igul\engine.cpp(146): warning C4101: 'is_clean_row': unreferenced local variable
+  Game.cpp
+c:\users\micha\source\repos\ix-igul\ix-igul\includes.h(18): warning C4091: 'typedef ': ignored on left of 'VectorPos' when no variable is declared
+  Main.cpp
+c:\users\micha\source\repos\ix-igul\ix-igul\includes.h(18): warning C4091: 'typedef ': ignored on left of 'VectorPos' when no variable is declared
+c:\users\micha\source\repos\ix-igul\ix-igul\main.cpp(5): warning C4326: return type of 'main' should be 'int' instead of 'void'
+c:\users\micha\source\repos\ix-igul\ix-igul\main.cpp(10): warning C4129: ' ': unrecognized character escape sequence
+  Generating Code...
+  IX-IGUL.vcxproj -> C:\Users\micha\source\repos\IX-IGUL\Debug\IX-IGUL.exe
