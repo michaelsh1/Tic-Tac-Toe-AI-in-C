@@ -52,6 +52,7 @@ const char *Play()
 {
 	boolean GameOver = False;
 	char turn = 'X';
+	char temp;
 	int depth;
 
 	Board board;
@@ -71,9 +72,12 @@ const char *Play()
 			while (1)
 			{
 				printf("How hard is the game?\n[1(easy) - 9(impossible)]: ");
-				scanf(" %d", &depth);
-				if (depth <= 9 && depth >= 1)
+				scanf(" %c", &temp);
+				if (temp <= '9' && temp >= '1')
+				{
+					depth = temp - 48;
 					break;
+				}
 				else
 					printf("Invalid input. Only between 1 - 9.\n");
 			}
