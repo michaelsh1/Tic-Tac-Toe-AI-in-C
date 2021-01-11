@@ -171,7 +171,7 @@ const char *Play()
 					system("cls");
 					printf("Player:   %c\nComputer: %c\n", player, AI);
 					PrintBoard(board);
-					printf("Game Over!\nWinner is computer as X\nLoL get rekt noob B)\n");
+					printf("Game Over!\nWinner is computer as O\nLoL get rekt noob B)\n");
 					return "AI";
 				}
 				printf("Press [Enter] key to continue.\n");
